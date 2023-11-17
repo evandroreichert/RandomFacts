@@ -2,7 +2,8 @@
   "name": "randomfacts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/translate": "^8.0.2"
+    "@google-cloud/translate": "^8.0.2",
+    "axios": "^1.6.2",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
   }
 }
