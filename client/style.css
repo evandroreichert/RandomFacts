@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: Poppins, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #e6e6e6; /* Cor de fundo mais suave */
+}
+
+main {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px; /* Aumentei o padding para dar mais espaço dentro do card */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  transition: all ease-in-out .2s;
+}
+
+h1 {
+  color: #333333;
+  margin: 0;
+}
+
+.dica {
+  color: #737373;
+  margin-top: 0;
+}
+
+#fato {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333333;
+  opacity: 1; /* Inicialmente, define a opacidade como 0 */
+  transition: opacity 0.5s ease-in-out; /* Adiciona uma transição de opacidade */
+}
+
+button {
+  margin-top: 10px; /* Adicionei um espaço acima do botão */
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  overflow: visible;
+  text-transform: none;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 600; /* Aumentei o peso da fonte para dar mais destaque */
+  color: #ffffff; /* Cor do texto no botão */
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #6a1b9a; /* Cor roxa escura */
+  border: 0;
+  padding: 15px 25px; /* Ajustei o padding para dar mais espaço dentro do botão */
+  font-size: 1.2rem;
+  line-height: 1.5;
+  border-radius: 6px;
+  transition: all 0.3s ease-out;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  text-decoration: none !important;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 1px #542b78; /* Sombra no texto do botão */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #4a148c; /* Cor mais escura no hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+#loading {
+  font-size: 24px;
+  display: none;
+  margin-left: 10px; 
+}
